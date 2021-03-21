@@ -40,7 +40,7 @@
                 </div>
             </div>
             <div class="form-group row">
-                <label for="nilai_tugas" class="col-4 col-form-label">Nilai Tugas/Praktikum</label> 
+                <label for="nilai_tugas" class="col-4 col-form-label">Nilai Tugas</label> 
                 <div class="col-8">
                     <input id="nilai_tugas" name="nilai_tugas" type="text" class="form-control">
                 </div>
