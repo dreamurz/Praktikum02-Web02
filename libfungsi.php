@@ -8,7 +8,7 @@ function grade_nilai($nilai_akhir){
             echo'C';
     }elseif ($nilai_akhir >= 36 && $nilai_akhir <= 55){
             echo'D';
-    }elseif ($nilai_akhir <= 35 && $nilai_akhir <= 35){
+    }elseif ($nilai_akhir >= 1 && $nilai_akhir <= 35){
             echo'E';
     }else{
             echo'I';
@@ -29,7 +29,7 @@ function predikat_nilai($nilai_akhir){
             case ($nilai_akhir >= 36 && $nilai_akhir <= 55):
                     echo 'Kurang';
                     break;
-            case ($nilai_akhir <= 35 && $nilai_akhir <= 35):
+            case ($nilai_akhir >= 1 && $nilai_akhir <= 35):
                     echo 'Sangat kurang';
                     break;    
             default:
